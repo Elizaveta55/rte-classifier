@@ -13,9 +13,8 @@ File ```rte.ipynb``` reflects all experiments and its performance and file ```GL
 
 ## Analysis
 
-RTE classification is complicated with input data
-representation, but despite of this f1-score were achieved up
+RTE classification is complicated with input data representation, but despite of this f1-score were achieved up
 to 0.61.
 
 1. **Sentences representation** Assumptions about the representation of two sentences resulted in weak performance of models. More advanced approaches should be applied to train a classifier.
-2. **Model choice.** LSTM model was not able to correctly classify different classes. Losses values showed LSTM as overfitted from the early epochs and only learnt to clssify all instances as instances belonging to one class.
+2. **Model choice.** LSTM model was not able to correctly classify different classes. Losses values showed LSTM as overfitted from the early epochs and are only learnt to classify all instances as instances belonging to one class.
